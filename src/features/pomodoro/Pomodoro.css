@@ -1,11 +1,16 @@
 /* src/PomodoroTimer.css */
 .pomodoro-timer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   height: 100vh;
-  background-color: #f4f4f4;
+  background-color: rgb(156, 41, 9);
+}
+
+.pomodoro {
+  background-color: rgb(212, 88, 54);
+  color: white;
+  border-radius: 1em;
+  padding: 5em;
 }
 
 .timer-display {
@@ -20,7 +25,7 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color: rgb(156, 41, 9);
   color: white;
 }
 
@@ -30,4 +35,19 @@ button:active {
 
 button:focus {
   outline: none;
+}
+
+.time-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.time-radio {
+  margin-right: 10px;
+}
+
+.time-label {
+  font-size: 1.2em;
+  font-weight: bold;
 }
