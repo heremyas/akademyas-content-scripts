@@ -14,4 +14,4 @@
   - External Services integration
   - Database Interations
   - and in Backend is where the algorithim of Youtube lives.
-- And for you to really get what i'm talking about, here is a very basic example (go to tutorial directory)
+- And for you to really understand what i'm talking about, here is a very basic example (go to tutorial directory)
